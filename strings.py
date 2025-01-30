@@ -28,3 +28,17 @@ str_character = user_string[0]
 #find the index
 str_index = user_string.find(str_character)
 print(f"The first character is {str_character} on index: {str_index}")
+print()
+
+"""
+Replace the character
+"""
+
+user_str = input("Enter a string: ")
+char_to_replace = input("Enter a character you want to replace: ")
+char_to_add = input("Enter the character you want to add: ")
+
+#replace the string with the provided character
+replaced = user_str.replace(char_to_replace, char_to_add)
+print(f"""You replaced {char_to_replace} with {char_to_add}
+Your string is now: {replaced}""")
