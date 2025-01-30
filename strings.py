@@ -27,4 +27,4 @@ str_character = user_string[0]
 
 #find the index
 str_index = user_string.find(str_character)
-print(f"The first character is on index: {str_index}")
+print(f"The first character is {str_character} on index: {str_index}")
