@@ -42,3 +42,17 @@ char_to_add = input("Enter the character you want to add: ")
 replaced = user_str.replace(char_to_replace, char_to_add)
 print(f"""You replaced {char_to_replace} with {char_to_add}
 Your string is now: {replaced}""")
+print()
+
+"""
+String Comparison
+"""
+print("Let's see if the words are similar!...")
+word_1 = input("Enter the first word: ")
+word_2 = input("Enter the second word: ")
+
+if word_1[0:] == word_2[0:]:
+    print("They are similar!")
+else:
+    print("They are different!")
+
